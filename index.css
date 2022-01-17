@@ -27,6 +27,9 @@
 
 }
 /*course*/
+.courses{
+    margin-top: 5%;
+}
 .checked {
     color: orange;
   }
@@ -42,6 +45,23 @@
  
   .btn1{
       margin: 3%;
+  }
+
+  /**/
+  .instructor{
+      margin-top: 5%;
+      display: grid;
+      grid-column: auto;
+      background-color: #1AA2B8;
+      padding-bottom: 2%;
+      color: white;
+  }
+  .instructor-text{
+      position: relative;
+      top: 20%;
+  }
+  .text-button{
+      text-align: right;
   }
 
 
@@ -67,7 +87,14 @@
     .nav-set{
         text-align: none;
     }
-    
+    .card{
+        position: relative;
+        left: 10%;
+    }
+    /**/
+    .instructor{
+        padding-bottom: 9%;
+    }
 
 
     }

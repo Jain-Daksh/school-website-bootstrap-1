@@ -1,3 +1,59 @@
 .navcent{
     padding-left: 5%;
 }
+/*home*/
+.home{
+    margin-top: 5%;
+}
+.home h1{
+    font-size: 40px;
+}
+.home-text{
+    position: relative;
+    top: 100px;
+    padding: 5%;
+}
+.image-home{
+    height: 603px;
+    width: 386px;
+}
+/**/
+
+
+
+
+
+
+
+
+@media screen and (max-device-width: 480px){
+    .image-home{
+        height: 303px;
+        width: 193.9px;
+        position: relative;
+        top: 100px;
+        left: 50px;
+    }    
+    }
+
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px){
+    .image-home{
+        height: 433px;
+        width: 277.1px;
+        position: relative;
+        top: 100px;
+        left: 50px;
+    }
+}
+
+@media screen and (min-device-width: 769px) and (max-device-width: 1023px){
+
+    .image-home{
+        height: 503px;
+        width: 321.98px;
+    }
+}
+
+@media screen and (min-device-width: 1024px){
+}

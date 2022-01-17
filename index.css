@@ -55,6 +55,7 @@
       background-color: #1AA2B8;
       padding-bottom: 2%;
       color: white;
+   
   }
   .instructor-text{
       position: relative;
@@ -89,6 +90,24 @@
     margin-right: 0%;
    
 }
+
+/*feedback*/
+.feedback{
+    margin-top: 5%;
+}
+.feedback1{
+    position: relative;
+    top: 30%;
+}
+.image-feedback{
+    height: 80px;
+    width: 60px;
+}
+.text-feedback-image{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
 @media screen and (max-device-width: 480px){
     .image-home{
         height: 303px;
@@ -116,10 +135,22 @@
     .instructor{
         padding-bottom: 9%;
     }
-
-
+    /**/
+    .trending{
+        position: relative;
+        right: 5%;
     }
-
+    /**/
+   
+    .feedback1{
+        display: none;
+        visibility: hidden;
+        
+    }
+    }
+    .footer-website{
+        margin-top: 5%;
+    }
 
 @media screen and (min-device-width: 481px) and (max-device-width: 768px){
     .image-home{
@@ -141,7 +172,13 @@
 
 
     }
+    /*trending*/
 
+    /**/
+    
+    .feedback1{
+
+    }
 
 @media screen and (min-device-width: 769px) and (max-device-width: 1023px){
 

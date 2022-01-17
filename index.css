@@ -26,8 +26,23 @@
     color: black !important;
 
 }
-
-
+/*course*/
+.checked {
+    color: orange;
+  }
+  .nav-set{
+      background-color: rgba(6, 106, 201, 0.1);
+      
+      text-align: center;
+  }
+ .courses-info{
+     
+     margin: 3%;
+ }
+ 
+  .btn1{
+      margin: 3%;
+  }
 
 
 
@@ -48,6 +63,13 @@
     .info-text{
         text-align: center;
     }
+    /**/
+    .nav-set{
+        text-align: none;
+    }
+    
+
+
     }
 
 
@@ -66,6 +88,10 @@
     .info-text{
         text-align: center;
     }
+    /*course*/
+ 
+
+
     }
 
 
@@ -78,6 +104,10 @@
     .info-text{
         text-align: center;
     }
+    /*course*/
+    
+
+
 }
 
 @media screen and (min-device-width: 1024px){

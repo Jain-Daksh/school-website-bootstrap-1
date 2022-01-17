@@ -63,11 +63,32 @@
   .text-button{
       text-align: right;
   }
+/*trending*/
+.trending{
+    margin-top: 5%;
+}
+.trending-text{
+    text-align: center;
+}
 
-
-
-
-
+/**/
+.img-trending{
+    height: 40px;
+    width: 40px;
+}
+.price-cart{
+    display: none;
+    visibility:hidden;
+}
+.cart:hover{
+    visibility: visible;
+}
+.image-trending{
+    
+    margin-left: 0.5%;
+    margin-right: 0%;
+   
+}
 @media screen and (max-device-width: 480px){
     .image-home{
         height: 303px;

@@ -17,8 +17,15 @@
     height: 603px;
     width: 386px;
 }
-/**/
+/*info*/
+.info{
+    margin-top: 5%;
+}
+.text-info{
+    margin: 5%;
+    color: black !important;
 
+}
 
 
 
@@ -33,7 +40,14 @@
         position: relative;
         top: 100px;
         left: 50px;
-    }    
+    } 
+    /*info*/
+    .info{
+        margin-top: 35%;
+    }
+    .info-text{
+        text-align: center;
+    }
     }
 
 
@@ -45,13 +59,24 @@
         top: 100px;
         left: 50px;
     }
-}
+    /*info*/
+    .info{
+        margin-top: 25%;
+    }
+    .info-text{
+        text-align: center;
+    }
+    }
+
 
 @media screen and (min-device-width: 769px) and (max-device-width: 1023px){
 
     .image-home{
         height: 503px;
         width: 321.98px;
+    }
+    .info-text{
+        text-align: center;
     }
 }
 

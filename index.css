@@ -1,28 +1,40 @@
-.navcent{
-    padding-left: 5%;
-}
+
 /*home*/
 .home{
     margin-top: 5%;
 }
-.home h1{
-    font-size: 40px;
+.inline{
+    margin-right: 8px;
 }
+.btn-danger-soft{
+    color: #d6293e;
+    background-color: rgba(214, 41, 62, 0.1);
+}
+.home-circle{
+    font-size: 36px;
+}
+.home-text p{
+    font-size: 18.75px;
+}
+.home-text h1{
+    font-size: 56px;
+}
+
 .home-text{
     position: relative;
-    top: 100px;
-    padding: 5%;
+    top: 150px;
 }
-.image-home{
+.images-home{
+    
     height: 603px;
-    width: 386px;
+    width: auto;
 }
 /*info*/
 .info{
     margin-top: 5%;
 }
 .text-info{
-    margin: 5%;
+    margin-right: 5%;
     color: black !important;
 
 }
@@ -33,37 +45,39 @@
 .checked {
     color: orange;
   }
-  .nav-set{
+.nav-set{
       background-color: rgba(6, 106, 201, 0.1);
-      
+     
       text-align: center;
   }
- .courses-info{
+.courses-info{
      
-     margin: 3%;
+     margin-top: 3%;
  }
  
-  .btn1{
+.btn1{
       margin: 3%;
   }
+.courses-info-section{
+    margin-bottom: 1%;
+}
 
-  /**/
-  .instructor{
-      margin-top: 5%;
-      display: grid;
-      grid-column: auto;
-      background-color: #1AA2B8;
-      padding-bottom: 2%;
-      color: white;
-   
-  }
-  .instructor-text{
-      position: relative;
-      top: 20%;
-  }
-  .text-button{
-      text-align: right;
-  }
+ /*instructor*/
+ .instructor{
+    margin-top: 5%;
+ 
+}
+.instructor-text{
+    background-color: #1AA2B8;
+    padding: 1.5%;
+    color: white;
+}
+
+.text-button{
+    text-align: center;
+    padding-top: 3%;
+}
+
 /*trending*/
 .trending{
     margin-top: 5%;
@@ -71,8 +85,6 @@
 .trending-text{
     text-align: center;
 }
-
-/**/
 .img-trending{
     height: 40px;
     width: 40px;
@@ -90,31 +102,18 @@
     margin-right: 0%;
    
 }
-
-/*feedback*/
-.feedback{
+.footer-website{
     margin-top: 5%;
-}
-.feedback1{
-    position: relative;
-    top: 30%;
-}
-.image-feedback{
-    height: 80px;
-    width: 60px;
-}
-.text-feedback-image{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
+
 }
 
 @media screen and (max-device-width: 480px){
-    .image-home{
+    .images-home{
         height: 303px;
-        width: 193.9px;
+        width: 225px;
         position: relative;
-        top: 100px;
-        left: 50px;
+        top: 160px;
+        
     } 
     /*info*/
     .info{
@@ -123,42 +122,18 @@
     .info-text{
         text-align: center;
     }
-    /**/
-    .nav-set{
-        text-align: none;
-    }
-    .card{
-        position: relative;
-        left: 10%;
-    }
-    /**/
-    .instructor{
-        padding-bottom: 9%;
-    }
-    /**/
-    .trending{
-        position: relative;
-        right: 5%;
-    }
-    /**/
-   
-    .feedback1{
-        display: none;
-        visibility: hidden;
-        
-    }
-    }
-    .footer-website{
-        margin-top: 5%;
-   
-    }
+      
+}
+
+
+
 
 @media screen and (min-device-width: 481px) and (max-device-width: 768px){
-    .image-home{
+    .images-home{
         height: 433px;
-        width: 277.1px;
+        width: 325.1px;
         position: relative;
-        top: 100px;
+        top: 160px;
         left: 50px;
     }
     /*info*/
@@ -168,38 +143,30 @@
     .info-text{
         text-align: center;
     }
-    /*course*/
-    .courses-info{
-        position: relative;
-        left: 20%;
-    }
-
-
-    }
-    /*trending*/
-
-    /*instructor*/
     
-    .instructor{
-        height: 65vh;
+}
 
-    }
 
 @media screen and (min-device-width: 769px) and (max-device-width: 1023px){
 
-    .image-home{
-        height: 503px;
-        width: 321.98px;
+    .navbar{
+        width: 100vmax;
+    }
+    .images-home{
+        height: 500px;
+        width: 350px;
+    }
+
+    .info{
+        margin-top: 20%;
     }
     .info-text{
         text-align: center;
     }
-    /*course*/
-  
 
-
-
+   
 }
 
-@media screen and (min-device-width: 1024px){
+@media screen and (min-device-width: 1023px) {
+    
 }

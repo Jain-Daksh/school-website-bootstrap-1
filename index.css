@@ -150,6 +150,7 @@
     }
     .footer-website{
         margin-top: 5%;
+   
     }
 
 @media screen and (min-device-width: 481px) and (max-device-width: 768px){
@@ -168,15 +169,19 @@
         text-align: center;
     }
     /*course*/
- 
+    .courses-info{
+        position: relative;
+        left: 20%;
+    }
 
 
     }
     /*trending*/
 
-    /**/
+    /*instructor*/
     
-    .feedback1{
+    .instructor{
+        height: 65vh;
 
     }
 
@@ -190,7 +195,8 @@
         text-align: center;
     }
     /*course*/
-    
+  
+
 
 
 }

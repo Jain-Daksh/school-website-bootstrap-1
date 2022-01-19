@@ -90,12 +90,11 @@
     width: 40px;
 }
 .price-cart{
-    display: none;
     visibility:hidden;
+    color: green;
 }
-.cart:hover{
-    visibility: visible;
-}
+
+
 .image-trending{
     
     margin-left: 0.5%;

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&family=Roboto:wght@100&display=swap');
+
+/* dot design */
+.design{
+    background-color: white;
+    background-image: radial-gradient(grey 2px , transparent 2px);
+    background-size: 50px 50px ;
+}
+/* font text */
+.text{
+    margin-top: 5%;
+    font-family: "Heebo", sans-serif;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+}
+.text h6{
+    font-size: 15px;
+    color: #0C8FE9;
+    margin-bottom: 8px;
+    
+}
+.text h1{
+    font-size: 45px;
+    margin-bottom:25.6px;
+}
+
+.box-1{
+    background-color: #086AC9;
+    margin: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.box-2{
+    background-color: white;
+    margin: 1rem;
+    text-align: center;
+    color: black;
+}
+
+/* form */
+.logo{
+    display: inline-block;
+    margin-left: 5%;
+}
+.form h2{
+    font-size: 37.5px;
+}

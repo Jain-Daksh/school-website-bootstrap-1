@@ -1,5 +1,7 @@
-
-/*home*/
+#navbar-2{
+    background: #fff !important;
+}
+/* home */
 .home{
     margin-top: 5%;
 }
@@ -11,42 +13,115 @@
     background-color: rgba(214, 41, 62, 0.1);
 }
 .home-circle{
-    font-size: 36px;
+    font-size: 50px;
+    color: blue; 
+    position: relative;
+     top: 10px; 
+    padding-left:15px ;
 }
 .home-text p{
     font-size: 18.75px;
+    margin-top: 1.6rem !important;
+    margin-bottom: 1.6rem !important;
+    font-weight: 400;
+}
+.home-text h1 span {
+    background-color: yellow;
+    
 }
 .home-text h1{
     font-size: 56px;
+    font-weight: 700;
+    line-height: 1.25;
 }
+.home-text-type{
+    margin-bottom: 1.6rem !important;
 
+}
 .home-text{
-    position: relative;
-    top: 150px;
+    padding-top: 15%;
 }
 .images-home{
     
-    height: 603px;
+    height: auto;
     width: auto;
 }
+.btn-home{
+    letter-spacing: 0.5px;
+    color: #d6293e;
+    background-color: rgba(214, 41, 62, 0.1)
+}
+
+
 /*info*/
 .info{
     margin-top: 5%;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+   
 }
 .text-info{
     margin-right: 5%;
     color: black !important;
-
 }
+
+.info-image-1{
+    border: 1px solid #FEF6E0; 
+    background-color: #FEF6E0;
+    padding: 1%;
+}
+.fa-television{
+    color: yellow;
+    font-size: 3.5rem !important;
+}
+.info-image-2{
+    border: 1px solid #E8EBED;
+    background-color: #E8EBED
+}
+.tie{
+    font-size: 3.5rem !important;
+    color: #1D3B53;
+}
+.info-image-3{
+    border: 1px solid #F0EBF9; 
+    background-color: #F0EBF9;
+}
+.graduate{
+    font-size: 3.5rem !important;
+    color: #735EC1;
+}
+.info-image-4{
+    border: 1px solid #E8EBED; 
+    background-color: #E8EBED;
+}
+.verify{
+    font-size: 3.5rem !important;
+    color: #1AA2B8;
+}
+
 /*course*/
 .courses{
     margin-top: 5%;
+}
+.text-courses{
+    text-align: center;
+}
+.text-courses h2{
+    font-size: 39.5px;
+    margin-bottom: 0.5rem;
+    font-family: "Heebo", sans-serif;
+    font-weight: 700;
+    line-height: 1.25;
+}
+.text-courses p{
+    margin-bottom: 1.0rem;
 }
 .checked {
     color: orange;
   }
 .nav-set{
       background-color: rgba(6, 106, 201, 0.1);
+      background-size: auto 60% !important;
      
       text-align: center;
   }
@@ -59,19 +134,27 @@
       margin: 3%;
   }
 .courses-info-section{
+ 
     margin-bottom: 1%;
 }
 
  /*instructor*/
  .instructor{
     margin-top: 5%;
+    
  
 }
 .instructor-text{
     background-color: #1AA2B8;
-    padding: 1.5%;
+    padding: 1.3rem;
+    border-radius: 0.5rem !important;
     color: white;
 }
+.instructor-text h3{
+    font-size: 30px;
+
+}
+
 
 .text-button{
     text-align: center;
@@ -84,6 +167,10 @@
 }
 .trending-text{
     text-align: center;
+}
+
+.trending-text h2{
+    font-size: 45px;
 }
 .img-trending{
     height: 40px;
@@ -101,6 +188,7 @@
     margin-right: 0%;
    
 }
+/* footer */
 .footer-website{
     margin-top: 5%;
 
@@ -108,64 +196,65 @@
 
 @media screen and (max-device-width: 480px){
     .images-home{
-        height: 303px;
-        width: 225px;
-        position: relative;
-        top: 160px;
+    
+        height: 250px;
+        width: 250px;
+    }
+    .text-info{
+        text-align: center;
+        margin-bottom: 5%;
         
-    } 
-    /*info*/
-    .info{
-        margin-top: 35%;
     }
     .info-text{
-        text-align: center;
+        margin-left: 1.9%;
     }
-      
+    .courses-info-section{
+        position: relative;
+        width: 18rem;
+    }
+
 }
-
-
-
 
 @media screen and (min-device-width: 481px) and (max-device-width: 768px){
     .images-home{
-        height: 433px;
-        width: 325.1px;
-        position: relative;
-        top: 160px;
-        left: 50px;
-    }
-    /*info*/
-    .info{
-        margin-top: 25%;
-    }
-    .info-text{
-        text-align: center;
-    }
     
+        height: 380px;
+        width: 380px;
+    }
+    .text-info{
+        text-align: center;
+        margin-bottom: 5%;
+        
+    }
+    .courses-info-section{
+        position: relative;
+        width: 18rem;
+    }
 }
-
 
 @media screen and (min-device-width: 769px) and (max-device-width: 1023px){
-
-    .navbar{
-        width: 100vmax;
-    }
     .images-home{
-        height: 500px;
-        width: 350px;
+    
+        height: 480px;
+        width: 480px;
     }
-
-    .info{
-        margin-top: 20%;
-    }
-    .info-text{
+    .text-info{
         text-align: center;
+        margin-bottom: 5%;
+        
+        
     }
-
    
 }
-
 @media screen and (min-device-width: 1023px) {
+    .images-home{
     
+        height: auto;
+        width: 550px;
+    }
+    .text-info{
+        text-align: center;
+        margin-bottom: 5%;
+        
+    }
 }
